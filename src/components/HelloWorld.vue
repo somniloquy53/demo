@@ -10,6 +10,7 @@ const count = ref(0)
 <template>
   <section id="center">
     <div class="hero">
+      <div>test</div>
       <img :src="heroImg" class="base" width="170" height="179" alt="" />
       <img :src="vueLogo" class="framework" alt="Vue logo" />
       <img :src="viteLogo" class="vite" alt="Vite logo" />
